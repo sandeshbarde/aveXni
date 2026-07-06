@@ -8,6 +8,12 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Benefits />
+      <Features />
+      <HowItWorks />
+      <SizeGuide />
+      <PriceCalculator />
+      <Gallery />
+      <BeforeAfter />
     </>
   );
 }
