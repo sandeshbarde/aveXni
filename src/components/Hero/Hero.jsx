@@ -17,7 +17,7 @@ export default function Hero() {
 
       {/* Background Image */}
       <img
-        src="/images/hero/hero-bg.webp"
+        src="/images/backgrounds/hero-bg.webp"
         alt="Luxury Handmade Portrait Background"
         className="hero-bg"
         loading="eager"

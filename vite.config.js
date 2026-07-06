@@ -5,8 +5,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
 
-  // GitHub repository name
-  base: "/aveXni/",
+  base: "/",
 
   resolve: {
     alias: {

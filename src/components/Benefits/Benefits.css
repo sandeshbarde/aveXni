@@ -28,7 +28,7 @@
     padding:10px 22px;
     border-radius:999px;
     background:rgba(245,158,11,.12);
-    border:1px solid rgba(245,158,11,.25);
+    border:1px solid rgba(244, 185, 82, 0.25);
     color:#F59E0B;
     font-size:14px;
     font-weight:700;
@@ -48,7 +48,7 @@
 }
 
 .section-heading p{
-    color:#94A3B8;
+    color:#f3f6f9;
     font-size:1.05rem;
     line-height:1.9;
 }
@@ -69,8 +69,8 @@
 
 .benefit-card{
     background:rgba(255,255,255,.05);
-    backdrop-filter:blur(16px);
     -webkit-backdrop-filter:blur(16px);
+    backdrop-filter:blur(16px);
 
     border:1px solid rgba(245,158,11,.18);
     border-radius:22px;
@@ -127,7 +127,7 @@
 ========================================== */
 
 .benefit-card p{
-    color:#94A3B8;
+    color:#eaf3ff;
     font-size:.97rem;
     line-height:1.8;
 }

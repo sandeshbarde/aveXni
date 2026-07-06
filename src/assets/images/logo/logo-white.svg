@@ -1,62 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="520"
+     height="150"
+     viewBox="0 0 520 150">
 
-    <!-- Transparent Background -->
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
 
-    <!-- ave -->
-    <text
-        x="40"
-        y="130"
-        font-family="Poppins, Montserrat, Arial, sans-serif"
-        font-size="90"
-        font-weight="700"
-        fill="#FFFFFF">
-        ave
-    </text>
+    <style>
+      .logo-font{
+        font-family:'Poppins','Montserrat','Arial',sans-serif;
+        font-weight:700;
+        font-size:82px;
+      }
+    </style>
+  </defs>
 
-    <!-- X -->
-    <defs>
-        <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#FFD166"/>
-            <stop offset="50%" stop-color="#F59E0B"/>
-            <stop offset="100%" stop-color="#D97706"/>
-        </linearGradient>
+  <!-- Sparkle -->
+  <path
+      d="M270 18
+         L274 31
+         L287 35
+         L274 39
+         L270 52
+         L266 39
+         L253 35
+         L266 31 Z"
+      fill="url(#gold)"/>
 
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="4" result="blur"/>
-            <feMerge>
-                <feMergeNode in="blur"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-    </defs>
-
-    <text
-        x="248"
-        y="130"
-        font-family="Poppins, Montserrat, Arial, sans-serif"
-        font-size="90"
-        font-weight="800"
-        fill="url(#gold)"
-        filter="url(#glow)">
-        X
-    </text>
-
-    <!-- ni -->
-    <text
-        x="315"
-        y="130"
-        font-family="Poppins, Montserrat, Arial, sans-serif"
-        font-size="90"
-        font-weight="700"
-        fill="#FFFFFF">
-        ni
-    </text>
-
-    <!-- Shine -->
-    <g transform="translate(295 40)">
-        <polygon
-            points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3"
-            fill="#FFD700"/>
-    </g>
+  <!-- Text -->
+  <text x="50" y="105" class="logo-font">
+      <tspan fill="#FFFFFF">ave</tspan>
+      <tspan fill="url(#gold)">X</tspan>
+      <tspan fill="#FFFFFF">ni</tspan>
+  </text>
 
 </svg>
