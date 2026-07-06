@@ -1,0 +1,37 @@
+npm create vite@latest my-app -- --template react
+npx create-next-app@latest
+
+react git hub pushing
+
+1 git hub init
+2 git add .
+3 git commit -m "Initial commit"
+4. git remote add origin https://github.com/your-username/your-repo-name.git
+5.git branch -M main
+git push -u origin main
+
+installation 
+
+npm intsall 
+npm install gh-pages
+
+
+json editing
+
+  "homepage": "https://github.com/Taherali941/Props.git/",
+
+  "predeploy":"npm run build",
+   "deploy":"gh-pages -d dist"
+
+vite editing
+
+export default defineConfig({
+  plugins: [react()],
+  base:"/Props"
+})
+
+next after all this 
+(run this command after pushing code)
+
+npm run deploy
+
