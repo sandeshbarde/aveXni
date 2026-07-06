@@ -1,23 +1,12 @@
 # robots.txt for aveXni
-# https://www.avexni.com/
 
 User-agent: *
 Allow: /
 
-# Block admin pages
+# Private/Admin pages
 Disallow: /admin/
 Disallow: /dashboard/
-Disallow: /login/
-Disallow: /register/
-Disallow: /checkout/
-Disallow: /payment/
 Disallow: /api/
-Disallow: /private/
-
-# Allow important assets
-Allow: /assets/
-Allow: /images/
-Allow: /gallery/
 
 # Sitemap
-Sitemap: https://www.avexni.com/sitemap.xml
+Sitemap: https://YOUR-VERCEL-DOMAIN.vercel.app/sitemap.xml
