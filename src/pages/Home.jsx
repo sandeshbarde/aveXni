@@ -10,10 +10,6 @@ export default function Home() {
       <Benefits />
       <Features />
       <HowItWorks />
-      <SizeGuide />
-      
-      
-      
     </>
   );
 }
