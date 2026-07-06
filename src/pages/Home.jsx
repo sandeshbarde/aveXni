@@ -13,7 +13,7 @@ export default function Home() {
       <SizeGuide />
       <PriceCalculator />
       <Gallery />
-      <BeforeAfter />
+      
     </>
   );
 }
