@@ -9,6 +9,7 @@ export default function Home() {
       <Hero />
       <Benefits />
       <Features />
+      <HowItWorks />
     </>
   );
 }
