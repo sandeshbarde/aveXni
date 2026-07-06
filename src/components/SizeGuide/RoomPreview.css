@@ -1,0 +1,237 @@
+/* =========================================================
+   aveXni - Room Preview
+========================================================= */
+
+.room-preview{
+    padding:120px 0;
+    background:#0F172A;
+    position:relative;
+    overflow:hidden;
+}
+
+.room-preview::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:radial-gradient(circle at top right,
+        rgba(245,158,11,.08),
+        transparent 45%);
+    pointer-events:none;
+}
+
+.room-preview-container{
+    width:min(1320px,92%);
+    margin:auto;
+    position:relative;
+    z-index:2;
+}
+
+/* ==========================================
+   Heading
+========================================== */
+
+.room-preview-title{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.room-preview-title span{
+    display:inline-block;
+    color:#F59E0B;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    margin-bottom:18px;
+}
+
+.room-preview-title h2{
+    color:#fff;
+    font-size:48px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.room-preview-title h2 span{
+    color:#F59E0B;
+}
+
+.room-preview-title p{
+    color:#CBD5E1;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* ==========================================
+   Grid
+========================================== */
+
+.room-preview-grid{
+    display:grid;
+    grid-template-columns:1.2fr 1fr;
+    gap:70px;
+    align-items:center;
+}
+
+/* ==========================================
+   Image
+========================================== */
+
+.room-preview-image{
+    display:flex;
+    justify-content:center;
+}
+
+.room-preview-image img{
+    width:100%;
+    max-width:650px;
+    border-radius:24px;
+    border:3px solid rgba(245,158,11,.25);
+    box-shadow:
+        0 30px 70px rgba(0,0,0,.45),
+        0 0 30px rgba(245,158,11,.18);
+    transition:.4s;
+}
+
+.room-preview-image img:hover{
+    transform:scale(1.03);
+}
+
+/* ==========================================
+   Right Content
+========================================== */
+
+.room-preview-content{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+
+.room-preview-item{
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+    padding:24px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(245,158,11,.15);
+    border-radius:18px;
+    transition:.35s;
+}
+
+.room-preview-item:hover{
+    transform:translateX(10px);
+    border-color:#F59E0B;
+    background:rgba(245,158,11,.08);
+}
+
+.room-preview-item svg{
+    color:#F59E0B;
+    flex-shrink:0;
+}
+
+.room-preview-item h4{
+    color:#fff;
+    font-size:20px;
+    margin-bottom:8px;
+}
+
+.room-preview-item p{
+    color:#CBD5E1;
+    line-height:1.7;
+}
+
+/* ==========================================
+   Button
+========================================== */
+
+.room-preview-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    width:max-content;
+
+    padding:16px 34px;
+
+    margin-top:10px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    color:#111827;
+
+    background:linear-gradient(
+        135deg,
+        #FFD166,
+        #F59E0B
+    );
+
+    box-shadow:0 15px 35px rgba(245,158,11,.35);
+
+    transition:.35s;
+}
+
+.room-preview-btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 22px 45px rgba(245,158,11,.45);
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:1100px){
+
+    .room-preview-grid{
+        grid-template-columns:1fr;
+        gap:50px;
+    }
+
+    .room-preview-content{
+        text-align:center;
+    }
+
+    .room-preview-btn{
+        margin:auto;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .room-preview{
+        padding:90px 0;
+    }
+
+    .room-preview-title h2{
+        font-size:36px;
+    }
+
+    .room-preview-item{
+        padding:20px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .room-preview-title h2{
+        font-size:28px;
+    }
+
+    .room-preview-item{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .room-preview-btn{
+        width:100%;
+    }
+
+}

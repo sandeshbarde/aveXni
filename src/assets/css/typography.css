@@ -1,0 +1,533 @@
+/* ==========================================================
+   aveXni Typography System
+========================================================== */
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* ==========================================================
+   Base Typography
+========================================================== */
+
+html{
+    font-size:16px;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:16px;
+
+    font-weight:400;
+
+    line-height:1.7;
+
+    color:#FFFFFF;
+
+    background:#0F172A;
+
+    letter-spacing:.2px;
+
+    -webkit-font-smoothing:antialiased;
+
+    text-rendering:optimizeLegibility;
+
+}
+
+/* ==========================================================
+   Headings
+========================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-family:"Montserrat",sans-serif;
+
+    font-weight:700;
+
+    line-height:1.2;
+
+    color:#FFFFFF;
+
+}
+
+h1{
+
+    font-size:4rem;
+
+    font-weight:800;
+
+}
+
+h2{
+
+    font-size:3rem;
+
+}
+
+h3{
+
+    font-size:2.25rem;
+
+}
+
+h4{
+
+    font-size:1.75rem;
+
+}
+
+h5{
+
+    font-size:1.35rem;
+
+}
+
+h6{
+
+    font-size:1.1rem;
+
+}
+
+/* ==========================================================
+   Paragraph
+========================================================== */
+
+p{
+
+    font-family:"Inter",sans-serif;
+
+    font-size:1rem;
+
+    color:#D1D5DB;
+
+    line-height:1.9;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================================================
+   Links
+========================================================== */
+
+a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+    transition:.3s ease;
+
+}
+
+a:hover{
+
+    color:#F59E0B;
+
+}
+
+/* ==========================================================
+   Lists
+========================================================== */
+
+ul,
+ol{
+
+    padding-left:20px;
+
+}
+
+li{
+
+    font-size:1rem;
+
+    color:#D1D5DB;
+
+    margin-bottom:8px;
+
+}
+
+/* ==========================================================
+   Small Text
+========================================================== */
+
+small{
+
+    font-size:.85rem;
+
+    color:#9CA3AF;
+
+}
+
+/* ==========================================================
+   Strong
+========================================================== */
+
+strong{
+
+    font-weight:700;
+
+    color:#FFFFFF;
+
+}
+
+/* ==========================================================
+   Blockquote
+========================================================== */
+
+blockquote{
+
+    border-left:4px solid #F59E0B;
+
+    padding-left:20px;
+
+    margin:30px 0;
+
+    color:#E5E7EB;
+
+    font-style:italic;
+
+}
+
+/* ==========================================================
+   Code
+========================================================== */
+
+code{
+
+    background:#111827;
+
+    color:#FFD166;
+
+    padding:3px 8px;
+
+    border-radius:6px;
+
+    font-size:.9rem;
+
+    font-family:monospace;
+
+}
+
+/* ==========================================================
+   Gradient Text
+========================================================== */
+
+.gradient-text{
+
+    background:linear-gradient(
+        135deg,
+        #FFD166,
+        #F59E0B
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+}
+
+/* ==========================================================
+   Hero Title
+========================================================== */
+
+.hero-title{
+
+    font-size:4.8rem;
+
+    font-weight:800;
+
+    line-height:1.05;
+
+    letter-spacing:-2px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-subtitle{
+
+    font-size:1.25rem;
+
+    color:#D1D5DB;
+
+    max-width:700px;
+
+}
+
+/* ==========================================================
+   Section Title
+========================================================== */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title span{
+
+    color:#F59E0B;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+}
+
+.section-title h2{
+
+    margin-top:15px;
+
+    font-size:3rem;
+
+}
+
+/* ==========================================================
+   Price
+========================================================== */
+
+.price{
+
+    font-size:3rem;
+
+    font-weight:800;
+
+    color:#F59E0B;
+
+}
+
+/* ==========================================================
+   Buttons
+========================================================== */
+
+.btn{
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    letter-spacing:.5px;
+
+}
+
+/* ==========================================================
+   Form
+========================================================== */
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#FFFFFF;
+
+}
+
+input,
+textarea,
+select{
+
+    font-family:"Inter",sans-serif;
+
+    font-size:1rem;
+
+}
+
+/* ==========================================================
+   Text Utilities
+========================================================== */
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.text-left{
+
+    text-align:left;
+
+}
+
+.text-right{
+
+    text-align:right;
+
+}
+
+.uppercase{
+
+    text-transform:uppercase;
+
+}
+
+.capitalize{
+
+    text-transform:capitalize;
+
+}
+
+.bold{
+
+    font-weight:700;
+
+}
+
+.medium{
+
+    font-weight:500;
+
+}
+
+.light{
+
+    font-weight:300;
+
+}
+
+.gold{
+
+    color:#F59E0B;
+
+}
+
+.white{
+
+    color:#FFFFFF;
+
+}
+
+.gray{
+
+    color:#9CA3AF;
+
+}
+
+/* ==========================================================
+   Responsive
+========================================================== */
+
+@media(max-width:1200px){
+
+    h1{
+
+        font-size:3.5rem;
+
+    }
+
+    .hero-title{
+
+        font-size:4rem;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    h1{
+
+        font-size:3rem;
+
+    }
+
+    h2{
+
+        font-size:2.5rem;
+
+    }
+
+    .hero-title{
+
+        font-size:3.2rem;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    html{
+
+        font-size:15px;
+
+    }
+
+    h1{
+
+        font-size:2.5rem;
+
+    }
+
+    h2{
+
+        font-size:2rem;
+
+    }
+
+    h3{
+
+        font-size:1.6rem;
+
+    }
+
+    .hero-title{
+
+        font-size:2.8rem;
+
+    }
+
+    .hero-subtitle{
+
+        font-size:1rem;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    html{
+
+        font-size:14px;
+
+    }
+
+    h1{
+
+        font-size:2rem;
+
+    }
+
+    h2{
+
+        font-size:1.75rem;
+
+    }
+
+    .hero-title{
+
+        font-size:2.3rem;
+
+        letter-spacing:-1px;
+
+    }
+
+}

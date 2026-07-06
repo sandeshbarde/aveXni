@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+
+    <defs>
+        <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFD166"/>
+            <stop offset="50%" stop-color="#F59E0B"/>
+            <stop offset="100%" stop-color="#D97706"/>
+        </linearGradient>
+
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2"/>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect
+        width="180"
+        height="180"
+        rx="36"
+        fill="#111827"/>
+
+    <!-- Gold X -->
+    <text
+        x="90"
+        y="122"
+        text-anchor="middle"
+        font-family="Poppins, Arial, Helvetica, sans-serif"
+        font-size="96"
+        font-weight="800"
+        fill="url(#gold)"
+        filter="url(#glow)">
+        X
+    </text>
+
+    <!-- Sparkle -->
+    <polygon
+        points="140,28 144,38 154,42 144,46 140,56 136,46 126,42 136,38"
+        fill="#FFFFFF"/>
+
+</svg>

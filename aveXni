@@ -1,0 +1,228 @@
+aveXni/
+│
+├── public/
+│   ├── favicon.ico
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   └── images/
+│
+├── src/
+│
+├── assets/
+│   ├── images/
+│   │   ├── hero/
+│   │   ├── gallery/
+│   │   ├── portraits/
+│   │   ├── icons/
+│   │   ├── logos/
+│   │   ├── backgrounds/
+│   │   └── testimonials/
+│   │
+│   ├── videos/
+│   ├── fonts/
+│   └── styles/
+│       ├── globals.css
+│       ├── animations.css
+│       └── variables.css
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── TrustBadges/
+│   ├── HowItWorks/
+│   ├── PortraitCategories/
+│   ├── SizeGuide/
+│   ├── OrderConfigurator/
+│   ├── PriceCalculator/
+│   ├── Gallery/
+│   ├── BeforeAfter/
+│   ├── Testimonials/
+│   ├── FAQ/
+│   ├── Contact/
+│   ├── Footer/
+│   ├── WhatsAppButton/
+│   ├── ScrollTop/
+│   ├── Loader/
+│   └── CursorEffect/
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Order.jsx
+│   ├── Gallery.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── TrackOrder.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   └── Dashboard.jsx
+│
+├── hooks/
+├── context/
+├── utils/
+├── services/
+├── routes/
+│
+├── App.jsx
+└── main.jsx  
+
+
+ 
+
+
+ src/
+│
+├── /
+│   ├── css/
+│   │   ├── globals.css
+│   │   ├── variables.css
+│   │   ├── animations.css
+│   │   ├── typography.css
+│   │   └── responsive.css
+│   │
+│   ├── fonts/
+│   │   ├── 
+│   │   ├── 
+│   │   └── 
+│   │
+│   ├── icons/
+│   │   ├── upload.svg
+│   │   ├── payment.svg
+│   │   ├── delivery.svg
+│   │   ├── whatsapp.svg
+│   │   ├── frame.svg
+│   │   ├── star.svg
+│   │   ├── gift.svg
+│   │   ├── coupon.svg
+│   │   ├── tracking.svg
+│   │   └── secure-payment.svg
+│   │
+│   └── images/
+├──/
+│
+│   ├── Navbar/
+│   │   ├── Navbar.jsx
+│   │   └── Navbar.css
+│   │
+│   ├── Hero/
+│   │   ├── Hero.jsx
+│   │   └── Hero.css
+│   │
+│   ├── Features/
+│   │   ├── Features.jsx
+│   │   └── Features.css
+│   │
+│   ├── HowItWorks/
+│   │   ├── HowItWorks.jsx
+│   │   └── HowItWorks.css
+│   │
+│   ├── SizeSelector/
+│   │   ├── SizeSelector.jsx
+│   │   └── SizeSelector.css
+│   │
+│   ├── PriceCalculator/
+│   │   ├── PriceCalculator.jsx
+│   │   └── PriceCalculator.css
+│   │
+│   ├── OrderForm/
+│   │   ├── OrderForm.jsx
+│   │   └── OrderForm.css
+│   │
+│   ├── Gallery/
+│   │   ├── Gallery.jsx
+│   │   └── Gallery.css
+│   │
+│   ├── BeforeAfter/
+│   │   ├── BeforeAfter.jsx
+│   │   └── BeforeAfter.css
+│   │
+│   ├── RoomPreview/
+│   │   ├── RoomPreview.jsx
+│   │   └── RoomPreview.css
+│   │
+│   ├── Testimonials/
+│   │   ├── Testimonials.jsx
+│   │   └── Testimonials.css
+│   │
+│   ├── FAQ/
+│   │   ├── FAQ.jsx
+│   │   └── FAQ.css
+│   │
+│   ├── Contact/
+│   │   ├── Contact.jsx
+│   │   └── Contact.css
+│   │
+│   ├── Footer/
+│   │   ├── Footer.jsx
+│   │   └── Footer.css
+│   │
+│   ├── Loading/
+│   │   └── Loading.jsx
+│   │
+│   ├── Success/
+│   │   └── Success.jsx
+│   │
+│   └── Error/
+│       └── Error.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Gallery.jsx
+│   ├── Order.jsx
+│   ├── Tracking.jsx
+│   ├── Contact.jsx
+│   ├── Privacy.jsx
+│   ├── Terms.jsx
+│   └── NotFound.jsx
+│
+├── layouts/
+│   └── MainLayout.jsx
+│
+├── hooks/
+│   ├── useTheme.js
+│   ├── useScroll.js
+│   └── usePriceCalculator.js
+│
+├── context/
+│   ├── ThemeContext.jsx
+│   ├── CartContext.jsx
+│   └── AuthContext.jsx
+│
+├── services/
+│   ├── api.js
+│   ├── razorpay.js
+│   ├── upload.js
+│   ├── email.js
+│   └── tracking.js
+│
+├── utils/
+│   ├── constants.js
+│   ├── helpers.js
+│   ├── validator.js
+│   ├── formatter.js
+│   └── priceCalculator.js
+│
+├── router/
+│   └── AppRouter.jsx
+│
+├── App.jsx
+├── main.jsx
+└── vite-env.d.ts
+
+
+  
+  src/
+└── assets/
+    └── fonts/
+        └── Montserrat/
+            ├── Montserrat-Light.ttf
+            ├── Montserrat-Regular.ttf
+            ├── Montserrat-Medium.ttf
+            ├── Montserrat-SemiBold.ttf
+            ├── Montserrat-Bold.ttf
+            ├── Montserrat-ExtraBold.ttf
+            ├── Montserrat-Light.woff2
+            ├── Montserrat-Regular.woff2
+            ├── Montserrat-Medium.woff2
+            ├── Montserrat-SemiBold.woff2
+            ├── Montserrat-Bold.woff2
+            └── Montserrat-ExtraBold.woff2

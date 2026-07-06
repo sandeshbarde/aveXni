@@ -1,0 +1,36 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  border-radius: 12px;
+}
+
+.error-icon {
+  font-size: 48px;
+  color: #dc2626;
+  margin-bottom: 16px;
+}
+
+.error-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #991b1b;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: #6b7280;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.error-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}

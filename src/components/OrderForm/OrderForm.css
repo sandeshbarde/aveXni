@@ -1,0 +1,538 @@
+/* ==========================================
+   Order Form Section
+========================================== */
+
+.order-form-section{
+    position:relative;
+    padding:120px 0;
+    background:#0F172A;
+    overflow:hidden;
+}
+
+.order-form-section::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+        radial-gradient(circle at top left,
+        rgba(245,158,11,.08),
+        transparent 40%),
+        radial-gradient(circle at bottom right,
+        rgba(245,158,11,.05),
+        transparent 45%);
+    pointer-events:none;
+}
+
+/* ==========================================
+   Form
+========================================== */
+
+.order-form{
+    position:relative;
+    background:rgba(255,255,255,.05);
+    -webkit-backdrop-filter:blur(18px);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(245,158,11,.15);
+    border-radius:28px;
+    padding:40px;
+    margin-top:60px;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+}
+
+.full-width{
+    grid-column:1/-1;
+}
+
+.form-group label{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#FFFFFF;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.form-group svg{
+    color:#F59E0B;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+
+    width:100%;
+
+    padding:16px 18px;
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:14px;
+
+    color:#FFFFFF;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+    color:#94A3B8;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+
+    border-color:#F59E0B;
+
+    box-shadow:0 0 18px rgba(245,158,11,.25);
+
+}
+
+textarea{
+    resize:vertical;
+}
+
+/* ==========================================
+   Upload Section
+========================================== */
+
+.upload-wrapper{
+    margin-top:35px;
+}
+
+.upload-box{
+
+    border:2px dashed rgba(245,158,11,.4);
+
+    border-radius:22px;
+
+    padding:50px 30px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    background:rgba(255,255,255,.03);
+
+}
+
+.upload-box:hover{
+
+    border-color:#F59E0B;
+
+    background:rgba(245,158,11,.05);
+
+}
+
+.upload-box svg{
+
+    color:#F59E0B;
+
+    margin-bottom:20px;
+
+}
+
+.upload-box h3{
+
+    color:#FFFFFF;
+
+    margin-bottom:10px;
+
+}
+
+.upload-box p{
+
+    color:#CBD5E1;
+
+}
+
+.upload-box span{
+
+    color:#F59E0B;
+
+    display:block;
+
+    margin:10px 0;
+
+}
+
+.upload-box small{
+
+    color:#94A3B8;
+
+}
+
+/* ==========================================
+   Preview
+========================================== */
+
+.preview-card{
+
+    background:#111827;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(245,158,11,.2);
+
+}
+
+.preview-card img{
+
+    width:100%;
+
+    height:320px;
+
+    object-fit:cover;
+
+}
+
+.preview-actions{
+
+    display:flex;
+
+    gap:15px;
+
+    padding:20px;
+
+}
+
+.preview-actions button{
+
+    flex:1;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.preview-actions button:first-child{
+
+    background:#F59E0B;
+
+    color:#111827;
+
+}
+
+.preview-actions button:first-child:hover{
+
+    background:#FFD166;
+
+}
+
+.delete-btn{
+
+    background:#DC2626;
+
+    color:#FFFFFF;
+
+}
+
+.delete-btn:hover{
+
+    background:#B91C1C;
+
+}
+
+.upload-success{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:18px;
+
+    color:#22C55E;
+
+    font-weight:600;
+
+}
+
+/* ==========================================
+   Payment
+========================================== */
+
+.payment-section{
+
+    margin-top:50px;
+
+}
+
+.payment-section h3{
+
+    color:#FFFFFF;
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+}
+
+.payment-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.payment-card{
+
+    padding:25px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(245,158,11,.15);
+
+    border-radius:18px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.payment-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#F59E0B;
+
+}
+
+.payment-card.active{
+
+    border:2px solid #F59E0B;
+
+    background:rgba(245,158,11,.08);
+
+}
+
+.payment-icon{
+
+    width:70px;
+
+    height:70px;
+
+    margin:auto auto 20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:18px;
+
+    background:linear-gradient(
+        135deg,
+        #FFD166,
+        #F59E0B
+    );
+
+    color:#111827;
+
+}
+
+.payment-card h4{
+
+    color:#FFFFFF;
+
+    margin-bottom:10px;
+
+}
+
+.payment-card p{
+
+    color:#CBD5E1;
+
+    font-size:14px;
+
+}
+
+.payment-info{
+
+    margin-top:25px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:18px;
+
+    border-radius:14px;
+
+    background:rgba(34,197,94,.08);
+
+    color:#22C55E;
+
+    border:1px solid rgba(34,197,94,.15);
+
+}
+
+/* ==========================================
+   Submit Button
+========================================== */
+
+.submit-btn{
+
+    width:100%;
+
+    margin-top:40px;
+
+    padding:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:linear-gradient(
+        135deg,
+        #FFD166,
+        #F59E0B
+    );
+
+    color:#111827;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.submit-btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 40px rgba(245,158,11,.35);
+
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:992px){
+
+    .form-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .payment-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .order-form-section{
+
+        padding:80px 0;
+
+    }
+
+    .order-form{
+
+        padding:25px;
+
+    }
+
+    .preview-card img{
+
+        height:240px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .order-form{
+
+        padding:20px;
+
+    }
+
+    .upload-box{
+
+        padding:35px 20px;
+
+    }
+
+    .payment-section h3{
+
+        font-size:24px;
+
+    }
+
+    .submit-btn{
+
+        font-size:16px;
+
+    }
+
+}

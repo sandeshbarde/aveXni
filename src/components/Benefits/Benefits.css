@@ -1,0 +1,223 @@
+/* ==========================================
+   Benefits Section
+========================================== */
+
+.benefits{
+    position:relative;
+    padding:110px 0;
+    background:#111827;
+    overflow:hidden;
+    border-top:1px solid rgba(245,158,11,.12);
+    border-bottom:1px solid rgba(245,158,11,.12);
+}
+
+/* ==========================================
+   Section Heading
+========================================== */
+
+.section-heading{
+    max-width:760px;
+    margin:0 auto 70px;
+    text-align:center;
+}
+
+.section-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 22px;
+    border-radius:999px;
+    background:rgba(245,158,11,.12);
+    border:1px solid rgba(245,158,11,.25);
+    color:#F59E0B;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:22px;
+}
+
+.section-heading h2{
+    font-size:3rem;
+    line-height:1.2;
+    color:#fff;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.section-heading h2 span{
+    color:#F59E0B;
+}
+
+.section-heading p{
+    color:#94A3B8;
+    font-size:1.05rem;
+    line-height:1.9;
+}
+
+/* ==========================================
+   Grid
+========================================== */
+
+.benefits-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+}
+
+/* ==========================================
+   Card
+========================================== */
+
+.benefit-card{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+
+    border:1px solid rgba(245,158,11,.18);
+    border-radius:22px;
+
+    padding:35px 30px;
+
+    text-align:center;
+
+    transition:.35s ease;
+}
+
+.benefit-card:hover{
+    transform:translateY(-10px);
+    border-color:#F59E0B;
+    box-shadow:0 20px 50px rgba(245,158,11,.18);
+}
+
+/* ==========================================
+   Icon
+========================================== */
+
+.benefit-icon{
+    width:72px;
+    height:72px;
+
+    margin:0 auto 25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#FFD166,#F59E0B);
+
+    color:#111827;
+
+    box-shadow:0 10px 30px rgba(245,158,11,.35);
+}
+
+/* ==========================================
+   Title
+========================================== */
+
+.benefit-card h3{
+    color:#fff;
+    font-size:1.25rem;
+    font-weight:700;
+    margin-bottom:14px;
+}
+
+/* ==========================================
+   Description
+========================================== */
+
+.benefit-card p{
+    color:#94A3B8;
+    font-size:.97rem;
+    line-height:1.8;
+}
+
+/* ==========================================
+   Tablet
+========================================== */
+
+@media (max-width:992px){
+
+.benefits{
+    padding:90px 0;
+}
+
+.section-heading h2{
+    font-size:2.5rem;
+}
+
+.benefits-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/* ==========================================
+   Mobile
+========================================== */
+
+@media (max-width:768px){
+
+.benefits{
+    padding:70px 0;
+}
+
+.section-heading{
+    margin-bottom:50px;
+}
+
+.section-heading h2{
+    font-size:2rem;
+}
+
+.section-heading p{
+    font-size:.95rem;
+}
+
+.benefits-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.benefit-card{
+    padding:28px 22px;
+}
+
+}
+
+/* ==========================================
+   Small Mobile
+========================================== */
+
+@media (max-width:480px){
+
+.benefits{
+    padding:60px 0;
+}
+
+.section-heading h2{
+    font-size:1.7rem;
+}
+
+.section-heading p{
+    font-size:.9rem;
+}
+
+.benefit-icon{
+    width:60px;
+    height:60px;
+}
+
+.benefit-card{
+    padding:24px 20px;
+}
+
+.benefit-card h3{
+    font-size:1.1rem;
+}
+
+.benefit-card p{
+    font-size:.9rem;
+}
+
+}

@@ -1,0 +1,304 @@
+/* ==========================================
+   Step Card
+========================================== */
+
+.step-card{
+
+    position:relative;
+
+    background:rgba(255,255,255,.05);
+
+    -webkit-backdrop-filter:blur(20px);
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(245,158,11,.15);
+
+    border-radius:24px;
+
+    padding:40px 28px;
+
+    text-align:center;
+
+    overflow:hidden;
+
+    transition:.4s ease;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+/* Shine Effect */
+
+.step-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:-120%;
+
+    width:60%;
+    height:100%;
+
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.18),
+        transparent
+    );
+
+    transition:.8s;
+
+}
+
+.step-card:hover::before{
+
+    left:130%;
+
+}
+
+.step-card:hover{
+
+    transform:
+        translateY(-12px)
+        scale(1.03);
+
+    border-color:#F59E0B;
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.35),
+        0 0 30px rgba(245,158,11,.25);
+
+}
+
+/* ==========================================
+   Step Number
+========================================== */
+
+.step-number{
+
+    position:absolute;
+
+    top:18px;
+    right:22px;
+
+    width:42px;
+    height:42px;
+
+    border-radius:50%;
+
+    background:linear-gradient(
+        135deg,
+        #FFD166,
+        #F59E0B
+    );
+
+    color:#111827;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    box-shadow:0 10px 25px rgba(245,158,11,.35);
+
+}
+
+/* ==========================================
+   Icon
+========================================== */
+
+.step-icon{
+
+    width:90px;
+    height:90px;
+
+    margin:0 auto 25px;
+
+    border-radius:22px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:linear-gradient(
+        135deg,
+        #FFD166,
+        #F59E0B
+    );
+
+    color:#111827;
+
+    box-shadow:0 15px 35px rgba(245,158,11,.35);
+
+    transition:.35s ease;
+
+}
+
+.step-card:hover .step-icon{
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
+
+/* ==========================================
+   Title
+========================================== */
+
+.step-title{
+
+    color:#FFFFFF;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================================
+   Description
+========================================== */
+
+.step-description{
+
+    color:#CBD5E1;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+/* ==========================================
+   Arrow
+========================================== */
+
+.step-arrow{
+
+    position:absolute;
+
+    top:50%;
+
+    right:-18px;
+
+    transform:translateY(-50%);
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#F59E0B;
+
+    color:#111827;
+
+    box-shadow:0 10px 25px rgba(245,158,11,.35);
+
+}
+
+/* ==========================================
+   Active Glow
+========================================== */
+
+.step-card.active{
+
+    border-color:#F59E0B;
+
+    box-shadow:
+        0 0 25px rgba(245,158,11,.30),
+        0 25px 55px rgba(0,0,0,.35);
+
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:1200px){
+
+    .step-arrow{
+
+        display:none;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .step-card{
+
+        padding:35px 24px;
+
+    }
+
+    .step-icon{
+
+        width:75px;
+        height:75px;
+
+    }
+
+    .step-title{
+
+        font-size:20px;
+
+    }
+
+    .step-description{
+
+        font-size:14px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .step-card{
+
+        padding:30px 20px;
+
+    }
+
+    .step-number{
+
+        width:36px;
+        height:36px;
+
+        font-size:16px;
+
+    }
+
+    .step-icon{
+
+        width:65px;
+        height:65px;
+
+    }
+
+    .step-title{
+
+        font-size:18px;
+
+    }
+
+}

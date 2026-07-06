@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+
+    <!-- Transparent Background -->
+
+    <!-- ave -->
+    <text
+        x="40"
+        y="130"
+        font-family="Poppins, Montserrat, Arial, sans-serif"
+        font-size="90"
+        font-weight="700"
+        fill="#FFFFFF">
+        ave
+    </text>
+
+    <!-- X -->
+    <defs>
+        <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFD166"/>
+            <stop offset="50%" stop-color="#F59E0B"/>
+            <stop offset="100%" stop-color="#D97706"/>
+        </linearGradient>
+
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <text
+        x="248"
+        y="130"
+        font-family="Poppins, Montserrat, Arial, sans-serif"
+        font-size="90"
+        font-weight="800"
+        fill="url(#gold)"
+        filter="url(#glow)">
+        X
+    </text>
+
+    <!-- ni -->
+    <text
+        x="315"
+        y="130"
+        font-family="Poppins, Montserrat, Arial, sans-serif"
+        font-size="90"
+        font-weight="700"
+        fill="#FFFFFF">
+        ni
+    </text>
+
+    <!-- Shine -->
+    <g transform="translate(295 40)">
+        <polygon
+            points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3"
+            fill="#FFD700"/>
+    </g>
+
+</svg>

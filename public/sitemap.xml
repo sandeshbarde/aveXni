@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Home -->
+    <url>
+        <loc>https://www.avexni.com/</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Gallery -->
+    <url>
+        <loc>https://www.avexni.com/gallery</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Order -->
+    <url>
+        <loc>https://www.avexni.com/order</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Pricing -->
+    <url>
+        <loc>https://www.avexni.com/pricing</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- About -->
+    <url>
+        <loc>https://www.avexni.com/about</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Reviews -->
+    <url>
+        <loc>https://www.avexni.com/reviews</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- FAQ -->
+    <url>
+        <loc>https://www.avexni.com/faq</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Contact -->
+    <url>
+        <loc>https://www.avexni.com/contact</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Track Order -->
+    <url>
+        <loc>https://www.avexni.com/track-order</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://www.avexni.com/privacy-policy</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Terms & Conditions -->
+    <url>
+        <loc>https://www.avexni.com/terms-and-conditions</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Refund Policy -->
+    <url>
+        <loc>https://www.avexni.com/refund-policy</loc>
+        <lastmod>2026-07-03</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>

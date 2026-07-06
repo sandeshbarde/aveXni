@@ -1,0 +1,180 @@
+/* ==========================================
+   Premium Gallery Overlay
+========================================== */
+
+.gallery-overlay{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+
+    padding:28px;
+
+    background:linear-gradient(
+        180deg,
+        rgba(15,23,42,.05),
+        rgba(15,23,42,.90)
+    );
+
+    opacity:0;
+    transition:.35s ease;
+}
+
+.gallery-card:hover .gallery-overlay{
+    opacity:1;
+}
+
+/* ==========================================
+   Badge
+========================================== */
+
+.gallery-badge{
+    position:absolute;
+    top:18px;
+    left:18px;
+
+    padding:8px 16px;
+
+    background:rgba(245,158,11,.95);
+
+    color:#111827;
+
+    font-size:13px;
+    font-weight:700;
+
+    border-radius:999px;
+
+    box-shadow:0 8px 20px rgba(245,158,11,.35);
+}
+
+/* ==========================================
+   Content
+========================================== */
+
+.gallery-content h3{
+    color:#fff;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.gallery-content p{
+    color:#CBD5E1;
+    line-height:1.7;
+    font-size:15px;
+    margin-bottom:24px;
+}
+
+/* ==========================================
+   Buttons
+========================================== */
+
+.gallery-buttons{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.gallery-btn{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    border:none;
+    cursor:pointer;
+
+    padding:12px 20px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.gallery-btn.primary{
+    background:#F59E0B;
+    color:#111827;
+}
+
+.gallery-btn.primary:hover{
+    transform:translateY(-2px);
+    background:#FBBF24;
+}
+
+.gallery-btn.secondary{
+    background:rgba(255,255,255,.12);
+    color:#fff;
+    border:1px solid rgba(255,255,255,.2);
+}
+
+.gallery-btn.secondary:hover{
+    background:rgba(255,255,255,.2);
+}
+
+/* ==========================================
+   Error Card
+========================================== */
+
+.gallery-error{
+    min-height:420px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#111827;
+
+    border:1px dashed rgba(245,158,11,.3);
+}
+
+.gallery-error-content{
+    text-align:center;
+    padding:30px;
+}
+
+.gallery-error-content svg{
+    color:#F59E0B;
+    margin-bottom:18px;
+}
+
+.gallery-error-content h4{
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.gallery-error-content p{
+    color:#94A3B8;
+}
+
+/* ==========================================
+   Mobile
+========================================== */
+
+@media(max-width:768px){
+
+.gallery-overlay{
+    opacity:1;
+    padding:22px;
+}
+
+.gallery-content h3{
+    font-size:20px;
+}
+
+.gallery-content p{
+    font-size:14px;
+}
+
+.gallery-buttons{
+    flex-direction:column;
+}
+
+.gallery-btn{
+    width:100%;
+    justify-content:center;
+}
+
+}

@@ -1,0 +1,127 @@
+/* Auto-generated placeholder for SectionTitle.css */
+/* ==========================================
+   Section Title
+========================================== */
+
+.section-title {
+  width: 100%;
+  margin: 0 auto 60px;
+}
+
+.section-title-center {
+  text-align: center;
+}
+
+.section-title-left {
+  text-align: left;
+}
+
+.section-title-right {
+  text-align: right;
+}
+
+/* Badge */
+
+.section-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.12);
+  color: #f59e0b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+/* Heading */
+
+.section-heading {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #111827;
+  letter-spacing: -1px;
+}
+
+.section-highlight {
+  color: #f59e0b;
+}
+
+/* Subtitle */
+
+.section-subtitle {
+  max-width: 760px;
+  margin: 22px auto 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #6b7280;
+}
+
+.section-title-left .section-subtitle {
+  margin-left: 0;
+}
+
+.section-title-right .section-subtitle {
+  margin-right: 0;
+}
+
+/* ==========================================
+   Dark Sections Support
+========================================== */
+
+.dark-section .section-heading,
+.dark-bg .section-heading {
+  color: #ffffff;
+}
+
+.dark-section .section-subtitle,
+.dark-bg .section-subtitle {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media (max-width: 992px) {
+  .section-title {
+    margin-bottom: 50px;
+  }
+
+  .section-heading {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    margin-bottom: 40px;
+  }
+
+  .section-heading {
+    font-size: 2.2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .section-badge {
+    font-size: 12px;
+    padding: 7px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-heading {
+    font-size: 1.9rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+}

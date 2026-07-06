@@ -1,0 +1,226 @@
+/* =========================================================
+   aveXni Design System
+   variables.css
+========================================================= */
+
+:root{
+
+    /* =========================================
+       Brand Colors
+    ========================================= */
+
+    --primary:#F59E0B;
+    --primary-dark:#D97706;
+    --primary-light:#FFD166;
+
+    --secondary:#111827;
+    --accent:#FBBF24;
+
+    /* =========================================
+       Background Colors
+    ========================================= */
+
+    --bg:#0F172A;
+    --bg-dark:#020617;
+    --bg-light:#F8FAFC;
+    --surface:#111827;
+    --surface-light:#1F2937;
+
+    /* =========================================
+       Text Colors
+    ========================================= */
+
+    --text:#FFFFFF;
+    --text-light:#ffffff;
+    --text-muted:#ffffff;
+    --text-dark:#111827;
+
+    /* =========================================
+       Gray Palette
+    ========================================= */
+
+    --gray-50:#F9FAFB;
+    --gray-100:#F3F4F6;
+    --gray-200:#E5E7EB;
+    --gray-300:#D1D5DB;
+    --gray-400:#9CA3AF;
+    --gray-500:#6B7280;
+    --gray-600:#4B5563;
+    --gray-700:#374151;
+    --gray-800:#1F2937;
+    --gray-900:#111827;
+
+    /* =========================================
+       Status Colors
+    ========================================= */
+
+    --success:#22C55E;
+    --danger:#EF4444;
+    --warning:#FACC15;
+    --info:#3B82F6;
+
+    /* =========================================
+       Glass Effect
+    ========================================= */
+
+    --glass-bg:rgba(255,255,255,.08);
+    --glass-border:rgba(255,255,255,.15);
+    --glass-shadow:rgba(0,0,0,.25);
+    --glass-blur:18px;
+
+    /* =========================================
+       Gradient Colors
+    ========================================= */
+
+    --gradient-primary:
+        linear-gradient(
+            135deg,
+            #FFD166 0%,
+            #FBBF24 50%,
+            #F59E0B 100%
+        );
+
+    --gradient-dark:
+        linear-gradient(
+            180deg,
+            #111827,
+            #020617
+        );
+
+    --gradient-light:
+        linear-gradient(
+            180deg,
+            #FFFFFF,
+            #F3F4F6
+        );
+
+    --gradient-gold:
+        linear-gradient(
+            90deg,
+            #FFD166,
+            #F59E0B
+        );
+
+    /* =========================================
+       Shadows
+    ========================================= */
+
+    --shadow-xs:
+        0 2px 8px rgba(0,0,0,.08);
+
+    --shadow-sm:
+        0 8px 20px rgba(0,0,0,.12);
+
+    --shadow-md:
+        0 15px 35px rgba(0,0,0,.18);
+
+    --shadow-lg:
+        0 25px 60px rgba(0,0,0,.25);
+
+    --shadow-xl:
+        0 40px 90px rgba(0,0,0,.35);
+
+    --gold-shadow:
+        0 15px 40px rgba(245,158,11,.35);
+
+    /* =========================================
+       Border Radius
+    ========================================= */
+
+    --radius-xs:6px;
+    --radius-sm:10px;
+    --radius-md:16px;
+    --radius-lg:24px;
+    --radius-xl:40px;
+    --radius-full:999px;
+
+    /* =========================================
+       Borders
+    ========================================= */
+
+    --border-light:
+        1px solid rgba(255,255,255,.10);
+
+    --border-gold:
+        1px solid rgba(245,158,11,.45);
+
+    --border-dark:
+        1px solid rgba(255,255,255,.05);
+
+    /* =========================================
+       Typography
+    ========================================= */
+
+    --font-primary:'Poppins',sans-serif;
+    --font-heading:'Montserrat',sans-serif;
+    --font-body:'Inter',sans-serif;
+
+    /* Font Sizes */
+
+    --fs-xs:.75rem;
+    --fs-sm:.875rem;
+    --fs-md:1rem;
+    --fs-lg:1.125rem;
+    --fs-xl:1.25rem;
+    --fs-2xl:1.5rem;
+    --fs-3xl:2rem;
+    --fs-4xl:2.75rem;
+    --fs-5xl:3.5rem;
+
+    /* Font Weights */
+
+    --fw-light:300;
+    --fw-normal:400;
+    --fw-medium:500;
+    --fw-semibold:600;
+    --fw-bold:700;
+    --fw-extrabold:800;
+
+    /* =========================================
+       Spacing
+    ========================================= */
+
+    --space-1:4px;
+    --space-2:8px;
+    --space-3:12px;
+    --space-4:16px;
+    --space-5:20px;
+    --space-6:24px;
+    --space-8:32px;
+    --space-10:40px;
+    --space-12:48px;
+    --space-16:64px;
+    --space-20:80px;
+
+    /* =========================================
+       Layout
+    ========================================= */
+
+    --container-width:1320px;
+    --container-padding:24px;
+
+    --navbar-height:85px;
+
+    /* =========================================
+       Animation
+    ========================================= */
+
+    --transition-fast:.2s ease;
+    --transition:.35s ease;
+    --transition-slow:.6s ease;
+
+    --hover-scale:1.04;
+    --card-scale:1.02;
+
+    /* =========================================
+       Z-index
+    ========================================= */
+
+    --z-dropdown:1000;
+    --z-sticky:1010;
+    --z-fixed:1020;
+    --z-modal:1050;
+    --z-toast:1100;
+    --z-loader:9999;
+
+}

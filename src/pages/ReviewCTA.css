@@ -1,0 +1,192 @@
+/* ===========================
+   Review CTA Section
+=========================== */
+
+.review-cta {
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-card {
+  width: 100%;
+  max-width: 780px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 28px;
+  padding: 60px 45px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  transition: all 0.35s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(245, 158, 11, 0.6);
+  box-shadow: 0 25px 70px rgba(245, 158, 11, 0.18);
+}
+
+/* ===========================
+   Icon
+=========================== */
+
+.review-icon {
+  width: 95px;
+  height: 95px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  color: #111827;
+  box-shadow: 0 10px 35px rgba(245, 158, 11, 0.4);
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.review-card h2 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.review-card h3 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #fbbf24;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.review-card p {
+  color: #cbd5e1;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* ===========================
+   Stars
+=========================== */
+
+.review-stars {
+  font-size: 2rem;
+  letter-spacing: 8px;
+  margin: 28px 0;
+  color: #fbbf24;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.review-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  margin-top: 15px;
+  padding: 16px 36px;
+
+  border-radius: 999px;
+
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: #111827;
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.35);
+}
+
+.review-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(245, 158, 11, 0.45);
+}
+
+/* ===========================
+   Small Text
+=========================== */
+
+.review-card small {
+  display: block;
+  margin-top: 18px;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* ===========================
+   Divider
+=========================== */
+
+.review-divider {
+  width: 90px;
+  height: 4px;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+  border-radius: 100px;
+  margin: 30px auto;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 768px) {
+  .review-cta {
+    padding: 70px 18px;
+  }
+
+  .review-card {
+    padding: 40px 25px;
+  }
+
+  .review-card h2 {
+    font-size: 1.8rem;
+  }
+
+  .review-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .review-card p {
+    font-size: 1rem;
+  }
+
+  .review-stars {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+  }
+
+  .review-btn {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .review-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .review-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 38px;
+  }
+
+  .review-stars {
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+  }
+}

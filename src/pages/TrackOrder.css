@@ -1,0 +1,71 @@
+/* ===========================
+   Track Order Page
+=========================== */
+
+.track-order-page {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.track-order-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.track-order-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.track-order-form {
+  display: flex;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.track-order-form input {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+}
+
+.track-order-form button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.track-order-form button:hover {
+  background: #1d4ed8;
+}
+
+.order-status {
+  margin-top: 30px;
+}
+
+.order-status-item {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #2563eb;
+  background: #eff6ff;
+  border-radius: 8px;
+}
+
+@media (max-width:768px) {
+  .track-order-form {
+    flex-direction: column;
+  }
+
+  .track-order-form button {
+    width: 100%;
+  }
+}

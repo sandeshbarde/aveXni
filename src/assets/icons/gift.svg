@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64">
+
+    <defs>
+        <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFD166"/>
+            <stop offset="50%" stop-color="#FBBF24"/>
+            <stop offset="100%" stop-color="#F59E0B"/>
+        </linearGradient>
+
+        <filter id="shadow">
+            <feDropShadow
+                dx="0"
+                dy="3"
+                stdDeviation="3"
+                flood-color="#F59E0B"
+                flood-opacity="0.45"/>
+        </filter>
+    </defs>
+
+    <!-- Background Circle -->
+    <circle
+        cx="32"
+        cy="32"
+        r="30"
+        fill="#111827"
+        stroke="url(#gold)"
+        stroke-width="2"
+        filter="url(#shadow)"/>
+
+    <!-- Gift Box -->
+    <rect
+        x="18"
+        y="28"
+        width="28"
+        height="18"
+        rx="2"
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="2.5"/>
+
+    <!-- Lid -->
+    <rect
+        x="16"
+        y="22"
+        width="32"
+        height="8"
+        rx="2"
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="2.5"/>
+
+    <!-- Vertical Ribbon -->
+    <line
+        x1="32"
+        y1="22"
+        x2="32"
+        y2="46"
+        stroke="#FFFFFF"
+        stroke-width="2.5"/>
+
+    <!-- Horizontal Ribbon -->
+    <line
+        x1="18"
+        y1="34"
+        x2="46"
+        y2="34"
+        stroke="#FFFFFF"
+        stroke-width="2.5"/>
+
+    <!-- Bow Left -->
+    <path
+        d="M32 22
+           C26 16 22 18 22 22
+           C22 26 27 27 32 24"
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="2.5"
+        stroke-linecap="round"/>
+
+    <!-- Bow Right -->
+    <path
+        d="M32 22
+           C38 16 42 18 42 22
+           C42 26 37 27 32 24"
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="2.5"
+        stroke-linecap="round"/>
+
+</svg>

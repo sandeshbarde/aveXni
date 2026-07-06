@@ -1,0 +1,168 @@
+/* ==========================================
+   About Page
+========================================== */
+
+.about-page{
+    background:#0F172A;
+    color:#fff;
+    min-height:100vh;
+}
+
+/* ==========================================
+   Hero
+========================================== */
+
+.about-hero{
+    padding:130px 20px 60px;
+    background:linear-gradient(180deg,#111827 0%,#0F172A 100%);
+    text-align:center;
+}
+
+.about-hero .container{
+    max-width:850px;
+    margin:auto;
+}
+
+.about-hero .section-title{
+    margin-bottom:0;
+}
+
+.about-hero .section-heading{
+    color:#0F172A;
+    font-size:clamp(2.8rem,5vw,4.5rem);
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.about-hero .section-subtitle{
+    color:#CBD5E1;
+    font-size:1.1rem;
+    line-height:1.8;
+    max-width:720px;
+    margin:auto;
+}
+
+/* ==========================================
+   Content
+========================================== */
+
+.about-content{
+    padding:60px 20px 100px;
+}
+
+.container{
+    width:min(1200px,92%);
+    margin:auto;
+}
+
+/* ==========================================
+   Grid
+========================================== */
+
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+/* ==========================================
+   Cards
+========================================== */
+
+.about-card{
+    background:#111827;
+    border:1px solid rgba(245,158,11,.15);
+    border-radius:24px;
+    padding:35px;
+    transition:.35s;
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+
+.about-card:hover{
+    transform:translateY(-8px);
+    border-color:#F59E0B;
+    box-shadow:0 20px 45px rgba(245,158,11,.18);
+}
+
+.about-card h2{
+    color:#fff;
+    font-size:1.8rem;
+    margin-bottom:20px;
+}
+
+.about-card p{
+    color:#CBD5E1;
+    line-height:1.9;
+}
+
+.about-card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.about-card li{
+    color:#CBD5E1;
+    padding:14px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.about-card li:last-child{
+    border-bottom:none;
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:992px){
+
+.about-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.about-hero{
+    padding:110px 20px 50px;
+}
+
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.about-card{
+    padding:28px;
+}
+
+.about-card h2{
+    font-size:1.5rem;
+}
+
+.about-hero .section-heading{
+    font-size:2.6rem;
+}
+
+}
+
+@media(max-width:480px){
+
+.about-hero{
+    padding:100px 20px 40px;
+}
+
+.about-hero .section-heading{
+    font-size:2.1rem;
+}
+
+.about-hero .section-subtitle{
+    font-size:1rem;
+}
+
+.about-card{
+    padding:22px;
+}
+
+}

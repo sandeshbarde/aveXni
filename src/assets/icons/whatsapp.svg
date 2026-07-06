@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64">
+
+    <defs>
+        <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFD166"/>
+            <stop offset="50%" stop-color="#FBBF24"/>
+            <stop offset="100%" stop-color="#F59E0B"/>
+        </linearGradient>
+
+        <filter id="shadow">
+            <feDropShadow dx="0" dy="3" stdDeviation="3"
+                          flood-color="#F59E0B"
+                          flood-opacity="0.45"/>
+        </filter>
+    </defs>
+
+    <!-- Gold Circle -->
+    <circle
+        cx="32"
+        cy="32"
+        r="30"
+        fill="url(#gold)"
+        filter="url(#shadow)"/>
+
+    <!-- WhatsApp Bubble -->
+    <path
+        fill="#FFFFFF"
+        d="M32 13
+           C21.5 13 13 21.4 13 31.9
+           C13 36 14.3 39.8 16.8 43
+           L14.5 50.5
+           L22.2 48.2
+           C25.2 50.1 28.5 51 32 51
+           C42.5 51 51 42.6 51 32.1
+           C51 21.6 42.5 13 32 13Z"/>
+
+    <!-- Phone -->
+    <path
+        fill="url(#gold)"
+        d="M27.2 24.8
+           C27.8 24.2 28.8 24.2 29.4 24.7
+           L31.5 26.8
+           C32.1 27.4 32.1 28.4 31.5 29
+           L30.4 30.1
+           C31.5 32.4 33.4 34.3 35.7 35.4
+           L36.8 34.3
+           C37.4 33.7 38.4 33.7 39 34.3
+           L41.1 36.4
+           C41.6 37 41.6 38 41 38.6
+           L39.7 39.9
+           C38.7 40.9 37.1 41.2 35.8 40.7
+           C29.1 38.3 23.7 32.9 21.3 26.2
+           C20.8 24.9 21.1 23.3 22.1 22.3
+           Z"/>
+</svg>
